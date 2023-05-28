@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PV_FinalProjects.exe" version="1.0.0.19" publicKeyToken="12f45cfd193a82ba" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="AppLogo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PV_FinalProjects" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PV_FinalProjects.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mmnPTBC1RJrnylp4KjvO9lXxItSxAgGQBqFyaR6HxtM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YK4Mj6GByRajY33umz19rpomuyt6quS0n9t7OfT3AUM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PV_FinalProjects.exe" size="22691288">
+      <assemblyIdentity name="PV_FinalProjects" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MjUehXFCRA7YjbJRHnoaoTvqhPqT4ukVp4hZA20NAv4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AppLogo.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vGHg17Waz1xA7SSf2lZtqWuM2/HCa1dsHGAdpRNDUPw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PV_FinalProjects.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rO4mjoMPTzC1RdE+BMvf0lfywGmtOsKfE96n+SRa584=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=LAPTOP-38UL1LN6\ASUS" issuerKeyHash="bed3ac553cb183295fe911d0e1fc40a6c414a532" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VZo1ZiRnwc29orhjJgR+fZgbZz+ux6qKq5q3PKV812w=</DigestValue></Reference></SignedInfo><SignatureValue>atefdoz0l1qOIgnHBbG0tL5eYmd/VfukClMMHUDDdzkcgltb5r8ZFeb2fNYa/FEpjJ8KL2a+Y56mkNbpp3lRBuqhwG81zNI+f2UJlGINTykpQpMj9t9E4Hvt8q1mraji89QSy9HvSpedPzPsqrhNFz3mCNsDWzJSDcvZ98M/Dlw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qtGh93dHonMy/2eIR4e7ybk1g+ZNaQzyeDfHD6E/JTU+InLXZw370ROgsZeUZ1IojS8gnehRfZHh4fohTvVSmzO0IYz2mTQLpygGsDpHvapSuz2a5JAbyOAMiFdNTxe2/sKcDmpO1/bm369WPMIqI30wF+rubxm8imqPhFU1W+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6cd77ca53cb79aab8aaac7ae3f671b987d7e042663b8a2bdcdc1672466359a55" Description="" Url=""><as:assemblyIdentity name="PV_FinalProjects.exe" version="1.0.0.19" publicKeyToken="12f45cfd193a82ba" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-38UL1LN6\ASUS</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>brBCQi6xgRMomyoD4smFCMgqSisdeRVsRrkUuA0R1vE=</DigestValue></Reference></SignedInfo><SignatureValue>ndmkBzGIUJWEd63xLVFuU0WvMXRSrNLorbmE3xNXHmuIQiTs0AvNb0xqEXkHxxPU0VCMEfLgra7//y+xEDDsX2q743WKAZTbCKdcrEsb0iIvPRIH4iSoATUdPpU7P/wkenhT90W2KWIYLveRJk+vnvWRQ1I5s1jksycssCosFr4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qtGh93dHonMy/2eIR4e7ybk1g+ZNaQzyeDfHD6E/JTU+InLXZw370ROgsZeUZ1IojS8gnehRfZHh4fohTvVSmzO0IYz2mTQLpygGsDpHvapSuz2a5JAbyOAMiFdNTxe2/sKcDmpO1/bm369WPMIqI30wF+rubxm8imqPhFU1W+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQVh6vbiWcXapExkTa3Ok6JTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATABBAFAAVABPAFAALQAzADgAVQBMADEATABOADYAXABBAFMAVQBTMB4XDTIyMTIwMTAzMTM1NVoXDTIzMTIwMTA5MTM1NVowMzExMC8GA1UEAx4oAEwAQQBQAFQATwBQAC0AMwA4AFUATAAxAEwATgA2AFwAQQBTAFUAUzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAqtGh93dHonMy/2eIR4e7ybk1g+ZNaQzyeDfHD6E/JTU+InLXZw370ROgsZeUZ1IojS8gnehRfZHh4fohTvVSmzO0IYz2mTQLpygGsDpHvapSuz2a5JAbyOAMiFdNTxe2/sKcDmpO1/bm369WPMIqI30wF+rubxm8imqPhFU1W+UCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAaKo3SvVZL98EZiWzsiAhLqxPzZOlfPSw1/Lfy1YeIAQhxfL8gKZvziujEY9z1ZjuQjqdLCcmSmPV/JlbDfdLoxBZrb8NdFludqjGK/7GHm9hoX472I7f+U7I56OUandjipLsL6ZM+6bv0BkKFcoHK5tGZ5+Bqo9BUoV4cDJOLcQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
